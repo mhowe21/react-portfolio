@@ -13,6 +13,8 @@ function App() {
         return "work";
       case "Contact":
         return "Contact";
+      case "Home":
+        return "Home";
     }
   };
   return (
