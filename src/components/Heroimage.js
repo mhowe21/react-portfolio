@@ -3,6 +3,11 @@ import Hero from "../assets/Hero/utahArch.jpg";
 
 export default function Heroimage() {
   return (
-    <img src={Hero} className="hero" style={{ width: "100%" }} alt="hero"></img>
+    <img
+      src={Hero}
+      className="hero"
+      style={{ width: "100%", height: "500px" }}
+      alt="hero"
+    ></img>
   );
 }
