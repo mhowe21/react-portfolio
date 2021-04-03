@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Headers from "./components/Navbar";
 import Heroimage from "./components/Heroimage";
+import Homepage from "./components/Home";
+import About from "./components/About";
 
 function App() {
   const [currentPage, handlePageChange] = useState("Home");
@@ -14,7 +16,7 @@ function App() {
       case "Contact":
         return "Contact";
       case "Home":
-        return "Home";
+        return <Homepage />;
     }
   };
   return (
@@ -24,9 +26,7 @@ function App() {
           currentPage={currentPage}
           handlePageChange={handlePageChange}
         />
-        <div>
-          <Heroimage />
-        </div>
+
         <div>{renderPage()}</div>
       </nav>
     </>
