@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Headers from "./components/Navbar";
-import Heroimage from "./components/Heroimage";
 import Homepage from "./components/Home";
 import About from "./components/About";
+import Work from "./components/Work";
 
 function App() {
   const [currentPage, handlePageChange] = useState("Home");
@@ -10,9 +10,9 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case "About":
-        return "About";
+        return <About />;
       case "Work":
-        return "work";
+        return <Work />;
       case "Contact":
         return "Contact";
       case "Home":
