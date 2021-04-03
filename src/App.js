@@ -24,11 +24,11 @@ function App() {
           currentPage={currentPage}
           handlePageChange={handlePageChange}
         />
+        <div>
+          <Heroimage />
+        </div>
         <div>{renderPage()}</div>
       </nav>
-      <div>
-        <Heroimage />
-      </div>
     </>
   );
 }
