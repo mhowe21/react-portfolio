@@ -1,11 +1,10 @@
 import React from "react";
+import WorkImages from "./WorkImages";
 
 export default function Work() {
   return (
     <div>
-      <h1>Example of work</h1>
-      <br></br>
-      <div></div>
+      <WorkImages />
     </div>
   );
 }
