@@ -3,6 +3,7 @@ import Headers from "./components/Navbar";
 import Homepage from "./components/Home";
 import About from "./components/About";
 import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 function App() {
   const [currentPage, handlePageChange] = useState("Home");
@@ -14,7 +15,7 @@ function App() {
       case "Work":
         return <Work />;
       case "Contact":
-        return "Contact";
+        return <Contact />;
       case "Home":
         return <Homepage />;
     }
