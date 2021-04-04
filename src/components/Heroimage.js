@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Hero from "../assets/Hero/utahArch.jpg";
+import Hero from "../assets/Images/utahArch.jpg";
 
 export default function Heroimage() {
   return (
