@@ -262,6 +262,17 @@ a:hover {
   justify-content: space-between;
 }
 
+.contact-img {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  margin-bottom: 3%;
+  margin-top: 3%;
+
+  height: 150px;
+  width: 150px;
+}
+
 .contact-telephone::before {
   content: "Telephone:";
   font-size: larger;
