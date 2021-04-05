@@ -262,6 +262,17 @@ a:hover {
   justify-content: space-between;
 }
 
+.contact-img {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  margin-bottom: 3%;
+  margin-top: 3%;
+
+  height: 150px;
+  width: 150px;
+}
+
 .contact-telephone::before {
   content: "Telephone:";
   font-size: larger;
@@ -270,6 +281,24 @@ a:hover {
 .contact-email::before {
   content: "Email:";
   font-size: larger;
+}
+
+.modalBackdrop {
+  background: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.work-IMG {
+  height: 300px;
+
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* Media Queries */
